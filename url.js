@@ -41,7 +41,7 @@
 				document.getElementById("output").innerHTML = "<iframe style='width:"+(screen.availWidth-200).toString()+"px;height:800px;' onload='xd()' id='ifr'></iframe>"
 			}
 		}
-		http.open ("GET", "http://card.boxhost.me/count.php?url="+document.getElementById("url").value, true);
+		http.open ("GET", "https://ototot.tk/BBS-Push/count.php?url="+document.getElementById("url").value, true);
 		http.send()
 	}
 	function xd(){
